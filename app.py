@@ -131,7 +131,6 @@ if uploaded_file:
 
                 st.image(
                     images[i],
-                    
                 )
 
         # =========================
@@ -155,8 +154,7 @@ if uploaded_file:
                 st.subheader("📸 Önce")
 
                 st.image(
-                    img,
-                    use_container_width=True
+                    img
                 )
 
                 st.caption(
@@ -168,8 +166,7 @@ if uploaded_file:
                 st.subheader("✨ Sonra")
 
                 st.image(
-                    example_image,
-                    use_container_width=True
+                    example_image
                 )
 
                 st.caption(

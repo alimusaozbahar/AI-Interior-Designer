@@ -43,7 +43,7 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file:
 
-    img = Image.open(uploaded_file)
+    img = Image.open(uploaded_file).convert('RGB')
 
     st.image(
         img,

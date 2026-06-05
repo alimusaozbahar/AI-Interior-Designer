@@ -1,7 +1,9 @@
+cat << 'EOF' > requirements.txt
 streamlit
 pandas
 numpy
-scikit-learn
 pillow
 matplotlib
 opencv-python-headless
+tensorflow-cpu
+EOF

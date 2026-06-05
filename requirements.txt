@@ -1,9 +1,7 @@
-cat << 'EOF' > requirements.txt
-streamlit
+streamlit==1.35.0
 pandas
-numpy
+numpy==1.26.4
 pillow
 matplotlib
 opencv-python-headless
-tensorflow-cpu
-EOF
+tensorflow-cpu==2.16.1

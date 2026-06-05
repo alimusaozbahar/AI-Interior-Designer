@@ -4,9 +4,6 @@ import numpy as np
 import os
 import random
 
-# KODA HİÇ DOKUNMADAN PARAMETRE HATASINI ÇÖZEN SİHİRLİ SATIR:
-st.image = lambda *args, **kwargs: st.image(*args, use_column_width=kwargs.pop("use_container_width", True)) if "use_container_width" in kwargs else st.image(*args, **kwargs)
-
 from PIL import Image
 from tensorflow.keras.preprocessing import image
 
@@ -14,7 +11,6 @@ st.set_page_config(
     page_title="AI Interior Designer",
     layout="wide"
 )
-# ... Kodunun geri kalan kısmına HİÇ DOKUNMA, aynen devam etsin ...
 
 st.title("🏠 AI Interior Designer")
 
@@ -51,8 +47,7 @@ if uploaded_file:
 
     st.image(
         img,
-        caption="Yüklenen Oda",
-        use_container_width=True
+        caption="Yüklenen Oda"     # <-- Sadece virgülden sonrasını sildik, parantezi kapattık.
     )
 
     # =========================

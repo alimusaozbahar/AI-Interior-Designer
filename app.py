@@ -8,11 +8,11 @@ from PIL import Image
 from tensorflow.keras.preprocessing import image
 
 st.set_page_config(
-    page_title="AI Interior Designer",
+    page_title="NANA!",
     layout="wide"
 )
 
-st.title("🏠 AI Interior Designer")
+st.title("🐑NANA AI Interior Designer🏠")
 
 # =========================
 # MODEL YÜKLE

@@ -131,7 +131,7 @@ if uploaded_file:
 
                 st.image(
                     images[i],
-                    use_container_width=True
+                    
                 )
 
         # =========================
